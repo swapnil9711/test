@@ -13,6 +13,12 @@ namespace test
             c = a + b;
             Console.WriteLine("Add=" + c);
         }
+        public void Sub()
+        {
+            int a = 90, b = 78, c;
+            c = a - b;
+            Console.WriteLine("Sub=" + c);
+        }
         static void Main(string[] args)
         {
             Program p = new Program();
