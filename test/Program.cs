@@ -26,12 +26,19 @@ namespace test
             c = a * b;
             Console.WriteLine("Mul=" + c);
         }
+        public void Div()
+        {
+            int a = 90, b = 78, c;
+            c = a / b;
+            Console.WriteLine("Div=" + c);
+        }
         static void Main(string[] args)
         {
             Program p = new Program();
             p.Add();
             p.Mul();
             p.Sub();
+            p.Div();
         }
     }
 }
